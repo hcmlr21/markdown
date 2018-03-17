@@ -136,6 +136,9 @@
 
 ## 2.4. 코드```<pre><code></code></pre>```
 4개의 공백 또는 하나의 탭으로 들여쓰기를 만나면 변환되기 시작하여 들여쓰지 않은 행을 만날때까지 변환이 계속된다.
+
+> 한줄 띄어쓰면 인식이 제대로 안되는 문제가 발생하곤 합니다.
+
 ```
 This is a normal paragraph:
 
@@ -146,7 +149,6 @@ end code block.
 <code>
 ```
 This is a normal paragraph:
-
     This is a code block.
 end code block.
 ```
